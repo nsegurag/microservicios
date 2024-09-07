@@ -11,12 +11,10 @@ public class Controlador {
 
     private List<Factura> facturas = new ArrayList<>();
 
-    // Constructor que inicializa los datos
     public Controlador() {
         inicializarDatos();
     }
 
-    // Método para inicializar algunas facturas predeterminadas
     private void inicializarDatos() {
         Factura factura1 = new Factura();
         factura1.setId("001");
